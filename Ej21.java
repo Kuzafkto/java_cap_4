@@ -31,6 +31,7 @@ Tu nota de Programación es 4.5
  * @author KuzaFkto
  */
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Ej21{
     public static void main(String[] args) {
@@ -45,7 +46,8 @@ public class Ej21{
                 System.out.println("Felicidades, tu media de programación es de " + average + ", estas aprobado");
             }else{
                 System.out.println("¿Cual ha sido el resultado de la recuperación? (apto/no apto)");
-                String result = sc.next();
+                String result = sc.nextLine();
+                result = sc.nextLine();
                 switch (result) {
                     case "apto":
                         average = 5;

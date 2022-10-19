@@ -95,3 +95,4 @@ public class Ej24 {
         sc.close();
     }
 }
+
