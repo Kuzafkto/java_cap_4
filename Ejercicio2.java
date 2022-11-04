@@ -8,7 +8,7 @@ horas, los minutos no se deben introducir por teclado.
  */
 import java.util.Scanner;
 
-public class Ej2{
+public class Ejercicio2{
     public static void main(String[] args) {
        
             Scanner sc = new Scanner (System.in);

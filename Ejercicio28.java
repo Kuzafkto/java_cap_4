@@ -22,7 +22,7 @@ Gana el jugador 1
  * @author KuzaFkto
 */
 import java.util.Scanner;
-public class Ej28{
+public class Ejercicio28{
     public static void main(String[] args) {
         Scanner sc=new Scanner (System.in);
         System.out.print("Jugador 1, elige una opción(piedra,papel o tijera");

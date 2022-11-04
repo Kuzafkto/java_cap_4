@@ -33,7 +33,7 @@ Tu nota de Programación es 4.5
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class Ej21{
+public class Ejercicio21{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingresa la nota del primer control de programación");

@@ -35,7 +35,7 @@ Introduzca su estado civil (1 - Soltero, 2 - Casado): 2
 */
 
 import java.util.Scanner; 
-public class Ej24 {
+public class Ejercicio24 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.printf("1- Programador Junior \n2- Programador Senior\n3- Jefe de proyecto\n");

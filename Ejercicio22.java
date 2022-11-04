@@ -8,7 +8,7 @@ a las 15:00h.
  * @author KuzaFkto
  */
 import java.util.Scanner;
-public class Ej22{
+public class Ejercicio22{
     /*Necesitamos usar el formato de 24 horas, recuerda que el fin de semana empieza el viernes a las 15:00
      * se da por hecho que introducirá los datos antes del viernes a las 15:00 por lo tanto no ingresará ni
      * sabado ni domingo.

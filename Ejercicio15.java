@@ -10,7 +10,7 @@ hacia la derecha.
  */
 import java.util.Scanner;
 
-public class Ej15{
+public class Ejercicio15{
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         char jhinCrit = '4';

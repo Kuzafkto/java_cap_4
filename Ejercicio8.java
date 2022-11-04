@@ -7,7 +7,7 @@ suficiente, bien, notable o sobresaliente).
  */
 
 import java.util.Scanner;
-public class Ej8{
+public class Ejercicio8{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese la primer nota");

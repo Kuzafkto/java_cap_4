@@ -33,7 +33,7 @@ poco más y averigües que es lo que está pasando por su cabeza.
  * @author KuzaFkto
  */
 import java.util.Scanner;
-public class Ej16{
+public class Ejercicio16{
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         boolean answer=false;

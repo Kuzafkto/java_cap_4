@@ -5,7 +5,7 @@ introducido por teclado. Se permiten números de hasta 5 cifras
  * @author KuzaFkto
  */
 import java.util.Scanner;
-public class Ej18 {
+public class Ejercicio18 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Ingrese un número para mostrar la primer cifra");

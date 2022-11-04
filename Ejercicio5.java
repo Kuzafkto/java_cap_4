@@ -18,7 +18,7 @@ Esa ecuación no tiene solución real.
 
 import java.util.Scanner;
 
-public class Ej5{
+public class Ejercicio5{
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0");

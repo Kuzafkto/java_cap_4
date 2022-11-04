@@ -8,7 +8,7 @@ asignatura toca a primera hora ese día.
 
 import java.util.Scanner;
 
-public class Ej1{
+public class Ejercicio1{
     public static void main(String[] args) {
         
             Scanner sc = new Scanner(System.in);

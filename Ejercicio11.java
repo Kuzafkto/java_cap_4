@@ -6,7 +6,7 @@ los segundos que faltan para llegar a la medianoche.
  */
 import java.util.Scanner;
 import java.lang.Math;
-public class Ej11{
+public class Ejercicio11{
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Ingrese la hora separando los minutos con coma (formato 24Hs)");
