@@ -15,7 +15,7 @@ public class Ejercicio9{
         int b = sc.nextInt();
         System.out.println("Ingresa el valor de c");
         int c = sc.nextInt();
-        float raiz =(b*b- 4*a*c)/2*a;
+        float raiz =(b*b- 4*a*c);
         if (raiz>=0 && 2*a != 0){
             String ecuación = a + "x^2 +"+ b + "x + " +c;
             System.out.printf("Las soluciones a la ecuación %s son:", ecuación );
