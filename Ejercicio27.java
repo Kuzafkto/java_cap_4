@@ -61,7 +61,7 @@ public class Ejercicio27{
                 break;
 
             case "chocolate":
-                System.out.println("Chocolate blanco o negro");
+                System.out.println("Chocolate blanco o negro?");
                 flavor = sc.nextLine();
                 switch (flavor) {
 

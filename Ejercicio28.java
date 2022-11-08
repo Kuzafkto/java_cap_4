@@ -25,41 +25,43 @@ import java.util.Scanner;
 public class Ejercicio28{
     public static void main(String[] args) {
         Scanner sc=new Scanner (System.in);
-        System.out.print("Jugador 1, elige una opción(piedra,papel o tijera");
+        System.out.print("Jugador 1, elige una opción(piedra,papel o tijera): ");
         String choice1=sc.nextLine();
-        System.out.print("Jugador 2, elige una opción(piedra,papel o tijera");
+        System.out.print("Jugador 2, elige una opción(piedra,papel o tijera): ");
         String choice2=sc.nextLine();
         if((choice1.equals("tijera")|choice1.equals("papel")|choice1.equals("piedra"))&&(choice2.equals("tijera")|choice2.equals("papel")|choice2.equals("piedra"))){
             if(choice1.equals(choice2)){
                 System.out.println("empate");
-            }
-            switch (choice1) {
-                case "tijera":
-                    if(choice2.equals("papel")){
-                        System.out.println("El jugador 1 gana");
-                    }else{
-                        System.out.println("El jugador 2 gana");
-                    }
-                    break;
-            
-                case "piedra":
-                if(choice2.equals("tijera")){
-                    System.out.println("El jugador 1 gana");
-                }else{
-                    System.out.println("El jugador 2 gana");
+            }else{
+                switch (choice1) {
+                    case "tijera":
+                        if(choice2.equals("papel")){
+                            System.out.println("El jugador 1 gana");
+                        }else{
+                            System.out.println("El jugador 2 gana");
+                        }
+                        break;
+
+                    case "piedra":
+                        if(choice2.equals("tijera")){
+                            System.out.println("El jugador 1 gana");
+                        }else{
+                            System.out.println("El jugador 2 gana");
+                        }
+                        break;
+                    case "papel":
+                        if(choice2.equals("piedra")){
+                            System.out.println("El jugador 1 gana");
+                        }else{
+                            System.out.println("El jugador 2 gana");
+                        }
+                        break;
+                    default:
+                        System.out.println("Error");
+                        break;
                 }
-                    break;
-                case "papel":
-                if(choice2.equals("piedra")){
-                    System.out.println("El jugador 1 gana");
-                }else{
-                    System.out.println("El jugador 2 gana");
-                }
-                    break;
-                default:
-                System.out.println("Error");
-                    break;
             }
+
         }else{
             System.out.println("error");
         }
